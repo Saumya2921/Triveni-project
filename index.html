@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Triveni Sheets - Bulk Blankets & Chadors</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+<div class="header-content">
+<div class="logo">
+  <span class="logo-text">Triveni <strong>Sheets</strong></span>
+</div>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Premium Bulk Blankets & Chadors</h1>
+    <p>Trusted supplier for hotels, hostels & retailers</p>
+    <button class="cta-button" onclick="scrollToContact()">Get in Touch</button>
+  </div>
+
+  <div class="hero-video">
+    <video autoplay muted loop playsinline>
+      <source src="triveni-gallery/Bulk-shop.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+
+<section id="about" class="about">
+<h2>About Us</h2>
+<p style="text-align:center;max-width:900px;margin:auto;">
+Triveni Sheets has been supplying bulk chadors and blankets in Mumbai for over 15 years.
+</p>
+</section>
+
+<section id="services" class="services">
+<h2>Our Services</h2>
+<div class="service-grid">
+<div class="service-card">Bulk Supply</div>
+<div class="service-card">Custom Branding</div>
+<div class="service-card">Fast Delivery</div>
+</div>
+</section>
+
+<section id="gallery" class="gallery">
+<h2>Our Gallery</h2>
+
+<div class="gallery-slider">
+
+<div class="gallery-slide active">
+<img src="triveni-gallery/picture.jpg" alt="Gallery Image 1">
+</div>
+
+<div class="gallery-slide">
+<img src="triveni-gallery/img1.jpg" alt="Gallery Image 2">
+</div>
+
+<div class="gallery-slide">
+<img src="triveni-gallery/img2.jpg" alt="Gallery Image 3">
+</div>
+
+<div class="gallery-slide">
+<img src="triveni-gallery/prited.jpg" alt="Gallery Image 4">
+</div>
+
+<button class="gallery-btn prev" onclick="changeGallery(-1)">❮</button>
+<button class="gallery-btn next" onclick="changeGallery(1)">❯</button>
+
+</div>
+</section>
+<section id="products" class="products">
+<h2>Our Products</h2>
+<div class="product-grid">
+<div class="product-card">
+  <div class="product-image">
+    <img src="triveni-gallery/cotton.jpg" alt="Cotton Blankets" style="width:100%; height: 200px; object-fit:cover;">
+  </div>
+  <div class="price">₹1900</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+    <img src="triveni-gallery/picture.jpg" alt="Woolen Blankets" style="width:100%; height: 200px; object-fit:cover;">
+  </div>
+  <div class="price">₹1800</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+    <img src="triveni-gallery/prited.jpg" alt="Printed Bulk Chadar" style="width:100%; height:200px; object-fit:cover;">
+  </div>
+  <div class="price">₹1000</div>
+</div>
+<div class="product-card">
+  <div class="product-image">
+    <img src="triveni-gallery/wool.jpg" alt="Cotton Bulk Chadar" style="width:100%; height:200px; object-fit:cover;">
+  </div>
+  <div class="price">₹1200</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact-section">
+<h2>Get in Touch</h2>
+<form id="contact-form" style="max-width:500px;margin:auto;text-align:center;">
+<input type="text" id="name" name="from_name" placeholder="Your Name" required>
+<input type="email" id="email" name="from_email" placeholder="Your Email" required>
+<textarea id="message" name="message" placeholder="Your Message" required></textarea>
+<button class="cta-button" type="submit">Send Message</button>
+</form>
+<iframe src="https://www.google.com/maps?q=Mumbai&output=embed"></iframe>
+</section>
+
+<footer>
+<p>© 2024 Triveni Sheets | All Rights Reserved</p>
+</footer>
+
+<a href="https://www.instagram.com/yourprofile" class="instagram-btn"><i class="fab fa-instagram"></i></a>
+<a href="tel:+919876543210" class="call-btn"><i class="fas fa-phone"></i></a>
+<a href="https://wa.me/919876543210" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+
+</body>
+</html>
